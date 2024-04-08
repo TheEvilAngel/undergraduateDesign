@@ -1,0 +1,3 @@
+generateSeaSurface_time——k不是w的函数，生成的海面
+generateSeaSurface_time_new——k是w的函数
+generateSeaSurface_time_boat——求得we，生成遭遇海浪谱
