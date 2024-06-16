@@ -1,0 +1,157 @@
+FEKO.CSV  Version 2017.1-403 from 2017-03-14
+          PREFEKO Version 2017.1-34 from 2017-02-06 [FEK: default 157; used 157] BINARY
+          CADFEKO version 2017.1-300391 (x64) from 2017-03-16                             
+          Copyright (c) 1999-2014 Altair Development S.A. (Pty) Ltd
+          Copyright (c) 2014-2017 Altair Engineering, Inc.
+          Intel(R) MKL version 11.3.4 (build 20160823) on Intel(R) Advanced Vector Extensions 2 (Intel(R) AVX2) enabled processors, Intel(R) 64 architecture (1 thread)
+Computer: PC WIN64 EM64T MKL IMPI -- DESKTOP-A9HV7PT
+          Microsoft Windows 8.1 Professional  (Build 9600), Version 6.3.9600 x64 (SP 0.0)
+          Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz; GenuineIntel family 6 model 14 stepping 10 brand id 0
+          1 physical CPU with a total of 12 processors found (multi-core CPU with max. 6 cores per physical CPU)
+Threads:  OpenMP threading not used
+Date:     2024-04-26 22:51:12                     
+File:     3-boat-7du-2L-modelMesh-hrrp-lowphi-3D
+Memory:   Unlimited, system allows maximum usage of 2.621 GByte
+          (for parallel runs memory limit is per process)
+          (installed memory 15.921 GByte, thereof free 6.935 GByte)
+MD5 Check:9A12225B9597428EE39438EB6CAB7788
+MD5 Total:16264ACA56B762C839A8DB9A6DB50151
+ Licence:  Altair HyperWorks
+
+Number of parallel processes:     6 on 1 CPUs
+
+Master process    0 on machine: DESKTOP-A9HV7PT                using 1 threads
+Server process    1 on machine: DESKTOP-A9HV7PT                using 1 threads
+Server process    2 on machine: DESKTOP-A9HV7PT                using 1 threads
+Server process    3 on machine: DESKTOP-A9HV7PT                using 1 threads
+Server process    4 on machine: DESKTOP-A9HV7PT                using 1 threads
+Server process    5 on machine: DESKTOP-A9HV7PT                using 1 threads
+
+
+SPICE
+  Engine:      NGSPICE
+  Executable:  D:\Program Files\Altair\2017\feko\bin\vngspicec.exe
+
+                    Planar triangles are used
+
+          Surface of all triangles in m*m:     5.12477E+02
+
+
+                         DATA FOR UTD/RL-GO
+
+      Consideration of:
+         reflected and transmitted rays:      yes 
+         edge and wedge diffraction (single): no  
+         corner diffraction:                  no  
+         double diffraction:                  no  
+         creeping waves:                      no  
+         tip diffraction:                     no  
+      Maximum number of ray interactions:     automatic
+      Using RL-GO
+      Coupling MoM-UTD/RL-GO is taken into account
+      Angular increment: Automatic adaptive mode
+      Spatial increment: Automatic adaptive mode
+
+
+                                DATA FOR MEMORY USAGE
+
+ Number of metallic triangles:               0                                max. triangles:    MAXNDR    =    34708
+ Number of dielectric triangles:             0
+ Number of aperture triangles:               0
+ Number of RL-GO triangles:              34708
+ Number of windscreen triangles:             0
+ Number of FEM surface triangles:            0
+ Number of modal port triangles:             0
+ Number of metallic segments:                0                                max. segments:     MAXNSEG   =        0
+ Number of combined MoM/MTL segments:        0
+ Number of dielectr./magnet. cuboids:        0                                max. cuboids:      MAXNQUA   =        0
+ Number of tetrahedra:                       0                                max. tetrahedra:   MAXNTETRA =        0
+ Number of edges in PO region:               0                                max. edges:        MAXPOKA   =        0
+ Number of wedges in PO region:              0                                max. wedges:       MAXPOKL   =        0
+ Number of Fock regions:                     0                                max. Fock regions: MAXFOGE   =        0
+ Number of polygonal surfaces:               0                                max. surfaces:     MAXPOLYF  =        0
+                                                                              max. corner pts.:  MAXPOLYP  =        0
+ Number of UTD cylinders:                    0
+
+ Number of metallic edges (MoM):             0  unknown:        0 (electr.)   max. edges:        MAXNKA    =    52062
+                                             0  unknown:        0 (magnet.)
+ Number of metallic edges (PO):              0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of dielectric edges (MoM):           0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of dielectric edges (PO):            0  unknown:        0 (electr.)
+                                                unknown:        0 (magnet.)
+ Number of aperture edges (MoM):             0  unknown:        0 (magnet.) 
+ Number of edges FEM/MoM surface:            0  unknown:        0 (electr.)
+                                             0                  0 (magnet.)
+ Number of nodes between segments:           0  unknown:        0             max. nodes:        MAXNKNO   =        0
+ Number of connection points:                0  unknown:        0             max. conn.:        MAXNV     =        0
+ Number of dielectric cuboids:               0  unknown:        0             max. cuboids:      MAXNQUA   =        0
+ Number of magnetic cuboids:                 0  unknown:        0
+ Number of dielectric faces (VEP):           0  unknown:        0
+ Number of magnetic faces (VEP):             0  unknown:        0
+
+ Number of basis funct. for MoM:             0  unknown:        0             max. basisf.       MAXNZEILE =    52062
+ Number of basis funct. for PO:              0  unknown:        0             max. basisf.       MAXNKAPO  =        0
+
+ read from input file:
+PS       0    0    3    1    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+CG      -1    0   -1    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00-1.000E+00-1.000E+00 0.000E+00 0.000E+00
+ read from input file:
+DI       0    0   -1    0    0 1.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 1.000E+03 0.000E+00 0.000E+00
+ read from input file:
+PW       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from input file:
+FR     150    0    0    0    0 9.300E+09 0.000E+00 9.500E+09 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+A0       0    0    1    3    1 1.000E+00 0.000E+00 8.500E+01 0.000E+00 0.000E+00 0.000E+00 4.500E+01 0.000E+00
+ read from buffer:
+NC       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+DA       0    0    1    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+OF       1    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ read from buffer:
+FF       2    0    0    0    0 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ 
+ 
+      ==============
+      CONFIGURATION: StandardConfiguration1
+      ==============
+
+
+                                   DATA FOR DIELECTRIC MEDIA
+
+internal  relative     relative  conductivity   tan(delta)    tan(delta)    wavelength   mass density    volume     medium
+index  permittivity permeability   in S/m       (electric)    (magnetic)       in m       in kg/m^3      in m^3
+    0      1.00000      1.00000  0.00000E+00   0.00000E+00   0.00000E+00   3.22357E-02   1.00000E+03    infinite    Free space
+
+
+
+
+               EXCITATION BY INCIDENT PLANE ELECTROMAGNETIC WAVE 
+
+ Name:                          PlaneWaveSource1
+ Excitation index:              1
+ Frequency in Hz:               FREQ =    9.30000E+09
+ Wavelength in m:               LAMBDA =  3.22357E-02
+ Direction of incidence:        THETA =   85.00  PHI =    0.00
+ Polarisation:                  LINEAR
+ Axial ratio:                   V =      0.0000
+ Polarisation angle:            ETA =    0.00
+ Direction of propag.:          BETA0X = -9.96195E-01
+   (unit vector)                BETA0Y =  0.00000E+00
+                                BETA0Z = -8.71557E-02
+ Wave number:                   BETA0  = ( 1.94914E+02 +j 0.00000E+00)
+ Field strength in V/m:         |E0X| =  8.71557E-02   ARG(E0X) =   180.00
+   (Phase in degrees)           |E0Y| =  0.00000E+00   ARG(E0Y) =     0.00
+                                |E0Z| =  9.96195E-01   ARG(E0Z) =     0.00
+
+
+                         DATA FOR THE GREEN'S FUNCTION
+
+                                   free space
+
